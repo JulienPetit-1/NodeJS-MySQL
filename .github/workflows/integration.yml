@@ -13,4 +13,4 @@ jobs:
       - name: Install
         run: npm install
       - name: Start
-        run: sudo docker-compose up
+        run: sudo docker-compose up -d
